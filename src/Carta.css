@@ -19,7 +19,7 @@
     background-color: red;
 }
        
-#flip-container{
+/* #flip-container{
     -webkit-perspective: 1000px;
     perspective: 1000px;
     padding: 50px
@@ -37,4 +37,4 @@
   .card:hover, .card.flip{
     transform: rotateX(180deg);
   }
-
+ */
