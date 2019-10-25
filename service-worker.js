@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CarolinaMedin/Juego-cartas-parejas-react.git/precache-manifest.79ccf0e4483eb6ab0acc026d42d5b220.js"
+  "/Juego-cartas-parejas-react/otrarama/precache-manifest.3b704f0b6066dea1818706f9211d8b82.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/CarolinaMedin/Juego-cartas-parejas-react.git/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Juego-cartas-parejas-react/otrarama/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
